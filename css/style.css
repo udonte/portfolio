@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #202020;
+  color: #f9f9f9;
+  /* border: 1px solid white; */
+  font-family: "Titillium Web", sans-serif;
+}
+#nav-bar {
+  display: flex;
+  list-style: none;
+}
+#nav-bar li a {
+  text-decoration: none;
+  padding: 5px;
+}
