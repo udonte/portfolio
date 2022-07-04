@@ -139,7 +139,8 @@ h2 {
   padding-bottom: 50px;
 }
 #hobbies-section,
-#work-section {
+#work-section,
+#contact-section {
   background: #272727;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -187,4 +188,47 @@ footer {
 }
 .experience-date {
   font-size: 0.8em;
+}
+#contact-section {
+  background: #272727;
+}
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+.contact-box {
+  width: 40%;
+}
+.contact-box input,
+.contact-box textarea,
+.contact-box button {
+  width: 70%;
+  padding: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-family: inherit;
+  background: #feda4e;
+  color: black;
+  outline: none;
+  border: none;
+  margin-bottom: 5px;
+}
+
+.contact-box button {
+  background: #202020;
+  color: #feda4e;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid #feda4e;
+}
+.contact-box p {
+  color: inherit;
+}
+.contact-box p a {
+  text-decoration: none;
+  font-family: inherit;
+  border-bottom: 1px solid #feda4e;
+  color: #128c7e;
 }
