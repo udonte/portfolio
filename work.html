@@ -23,36 +23,40 @@
     ></script>
   </head>
   <body>
-    <header>
+    <header id="header">
+      <h1 id="logo"><a href="/index.html">UG</a></h1>
       <nav>
         <ul id="nav-bar">
-          <li><h1>UG</h1></li>
           <li><a href="/index.html"> Home</a></li>
           <li><a href="/about.html"> About</a></li>
-          <li><a href="/work.html"> Work</a></li>
+          <li><a class="current" href="/work.html"> Work</a></li>
           <li><a href="/contact.html"> Contact</a></li>
-          <li>
-            <a href="/www.linkedin.com"> <i class="fa fa-linkedin"></i></a>
-          </li>
-          <li>
-            <a href="/contact.html"> <i class="fa fa-github"></i></a>
-          </li>
-          <li>
-            <a href="/contact.html"> <i class="fa fa-twitter"></i></a>
-          </li>
         </ul>
       </nav>
+      <div id="contact-icons">
+        <a href="https://www.linkedin.com/in/george-udonte" target="_blank">
+          <i class="fa fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/udonte" target="_blank">
+          <i class="fa fa-github"></i
+        ></a>
+        <a href="https://twitter.com/GeorgeUdonte" target="_blank">
+          <i class="fa fa-twitter"></i
+        ></a>
+      </div>
     </header>
     <main>
       <section id="hero-section">
         <div class="container">
-          <div id="name">GEORGE</div>
-          <div id="role">FRONTEND DEVELOPER</div>
-          <div id="intro">
-            I’ve always been a creative problem solver, an independent
-            introvert, and a technophile obsessed with the latest devices.
-            Today, I work as a Frontend Engineering Intern for TIIDELab, showing
-            off all these elements of who I am.
+          <figure><img src="/images/george-pic (2).png" alt="" /></figure>
+          <div id="hero-details">
+            <div id="name">GEORGE</div>
+            <div id="role">FRONTEND DEVELOPER</div>
+            <div id="intro">
+              Hi. If you're looking for a creative problem solver and a commited
+              developer who is fully dedicated to using technology to solve
+              business problems, you're in the right place!
+            </div>
           </div>
         </div>
       </section>
