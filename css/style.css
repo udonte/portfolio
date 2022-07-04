@@ -17,7 +17,7 @@ footer {
 }
 header {
   background: #202020;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -25,6 +25,7 @@ header {
 .container {
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 main {
   margin-top: 100px;
@@ -114,14 +115,16 @@ h2 {
   color: #feda4e;
   margin-top: 30px;
 }
-#skills-boxes {
+#skills-boxes,
+#hobbies-boxes {
   display: flex;
   justify-content: left;
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
 }
-.skill {
+.skill,
+.hobby {
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -130,4 +133,27 @@ h2 {
   height: 150px;
   background: #feda4e;
   flex: 1;
+}
+#skills-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#hobbies-section {
+  background: #272727;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.hobby {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hobby-title {
+  color: black;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
 }
