@@ -407,7 +407,7 @@ transform: translateY(0);
   }
   .container {
     max-width: 100%;
-    margin: 0 auto;
+    margin-bottom: 70px;
   }
   header{
     justify-content: flex-start;
@@ -449,7 +449,7 @@ transform: translateY(0);
     border-bottom: none;
     }
     #hero-section .container {
-      max-width: 80%;
+      max-width: 95%;
     }
     #name{
       font-size: 4rem;
