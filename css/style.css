@@ -112,7 +112,7 @@ header nav {
 }
 header #nav-bar{
   flex-direction: column;
-  display: none;
+  display: block;
 }
 header .contact-icons {
   order: 2;
@@ -126,6 +126,23 @@ header .contact-icons {
   font-size: 2em;
   display: block;
 }
+#header #nav-bar a {
+  text-decoration: none;
+  color: #d8d8d8;
+  padding: 3px 6px;
+  font-size: 1em;
+}
+
+#header #nav-bar a:hover,
+#header #nav-bar a.current {
+  color: #feda4e;
+  padding: 3px 6px;
+  font-size: 1em;
+  background: #29166f;
+  border-radius: 5px;
+  border: 1px solid #feda4e;
+}
+
 }
 
 /* HERO-SECTION */
@@ -228,6 +245,13 @@ header .contact-icons {
   align-items: center;
   gap: 20px;
 }
+
+/*MEDIA QUERY*/
+
+
+
+
+
 /* ABOUT */
 #about-section, #project-section {
   background: #272727;
