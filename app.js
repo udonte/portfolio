@@ -1,8 +1,8 @@
 function myFunction() {
-    let x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
+    let navBar = document.getElementById("nav-bar");
+    if (navBar.style.display === "block") {
+      navBar.style.display = "none";
     } else {
-      x.style.display = "block";
+      navBar.style.display = "block";
     }
   }
