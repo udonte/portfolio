@@ -449,7 +449,7 @@ transform: translateY(0);
     border-bottom: none;
     }
     #hero-section .container {
-      max-width: 95%;
+      max-width: 80%;
     }
     #name{
       font-size: 4rem;
