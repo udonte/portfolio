@@ -455,8 +455,13 @@ transform: translateY(0);
       font-size: 4rem;
     }
     #role{
-      font-size: 0.8rem;
+      font-size: 0.6rem;
       padding-bottom: 1rem;
+    }
+    #intro{
+      font-size: 2rem;
+      font-style: italic;
+      line-height: 3rem;
     }
     #hero-section img {
       border-radius: 40%;
