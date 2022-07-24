@@ -459,9 +459,10 @@ transform: translateY(0);
       padding-bottom: 1rem;
     }
     #intro{
-      font-size: 2rem;
+      font-size: 1.7rem;
       font-style: italic;
       line-height: 3rem;
+      text-align: left;
     }
     #hero-section img {
       border-radius: 40%;
