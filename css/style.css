@@ -112,7 +112,7 @@ header nav {
 }
 header #nav-bar{
   flex-direction: column;
-  display: block;
+  display: none;
 }
 header .contact-icons {
   order: 2;
