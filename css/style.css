@@ -462,7 +462,7 @@ transform: translateY(0);
       font-size: 1.7rem;
       font-style: italic;
       line-height: 3rem;
-      text-align: left;
+      text-align: center;
     }
     #hero-section img {
       border-radius: 40%;
