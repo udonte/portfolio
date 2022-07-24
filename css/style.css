@@ -88,7 +88,7 @@ align-items: center;
   display: none;
 }
 
-/*MEDIA QUERY FOR HOMEPAGE*/
+/*MEDIA QUERY*/
 @media screen and (max-width:480px) {
   
 header,
@@ -127,22 +127,32 @@ header .contact-icons {
   display: block;
 }
 #header #nav-bar a {
-  text-decoration: none;
-  color: #d8d8d8;
   padding: 3px 6px;
   font-size: 1em;
 }
 
 #header #nav-bar a:hover,
 #header #nav-bar a.current {
-  color: #feda4e;
   padding: 3px 6px;
   font-size: 1em;
-  background: #29166f;
-  border-radius: 5px;
-  border: 1px solid #feda4e;
 }
-
+section{
+  border-bottom: none;
+  }
+  #hero-section .container {
+    max-width: 100%;
+  }
+  #name{
+    font-size: 3rem;
+  }
+  #role{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+  #hero-section img {
+    border-radius: 40%;
+    width: 150px;
+  }
 }
 
 /* HERO-SECTION */
@@ -179,13 +189,7 @@ header .contact-icons {
   border-radius: 40%;
   width: 200px;
 }
-#name{
-  font-size: 3em;
-}
-#role{
-  font-size: 1em;
-  padding-bottom: 1rem;
-}
+
 /* PROJECT-SECTION */
 
 #projects {
