@@ -94,7 +94,7 @@ align-items: center;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 55%;
+  max-width: 85%;
 }
 #hero-details {
   display: flex;
@@ -115,8 +115,11 @@ align-items: center;
   letter-spacing: 1rem;
 }
 #intro {
+  margin-top: 50px;
   text-align: justify;
   font-family: monospace;
+  font-size: 2em;
+  font-style: italic;
 }
 #hero-section img {
   border-radius: 40%;
@@ -182,12 +185,6 @@ align-items: center;
   align-items: center;
   gap: 20px;
 }
-
-/*MEDIA QUERY*/
-
-
-
-
 
 /* ABOUT */
 #about-section, #project-section {
@@ -370,6 +367,7 @@ h2 {
 footer {
   text-align: center;
   font-size: 0.8em;
+  padding: 20px;
 }
 @keyframes transitionIn{
 from {
@@ -481,6 +479,71 @@ transform: translateY(0);
       max-width: 100%;
       height:fit-content;
     }
+    h2{
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    #skills-boxes,
+    #hobbies-boxes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    
+    }
+    .skill,
+.hobby {
+  width: 150px;
+  height: 150px;
+  
+}
+#skills-section {
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+.experience-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.experience-box:first-child, .experience-box:last-child {
+  border: none;
+}
+.experience-box:first-child {
+  padding-left: 20px;
+}
+.experience-date {
+  font-size: 0.8em;
+}
+.contact-container {
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.contact-box {
+  width: 100%;
+}
+.contact-box input,
+.contact-box textarea,
+.contact-box button {
+  width: 100%;
+}
+
+.contact-box button {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.contact-box p {
+  color: inherit;
+}
+.contact-box p a {
+  text-decoration: none;
+  font-family: inherit;
+  border-bottom: 1px solid #feda4e;
+  color: #128c7e;
+}
   }
 
 
